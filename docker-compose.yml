@@ -1,0 +1,5 @@
+services:
+  my-go-app:
+    build: .
+    ports:
+      - "3030:3000"  # Maps host:container
